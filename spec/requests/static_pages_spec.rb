@@ -9,7 +9,7 @@ describe "StaticPages" do
     before { visit '/static_pages/home' }
 
   	it { should have_content('Sample App') }
-    it { should have_title("#{base_title} | Home") }
+    it { should have_title("#{base_title}") }
   end
 
   describe "Help page" do
